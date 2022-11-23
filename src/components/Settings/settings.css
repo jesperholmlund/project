@@ -1,0 +1,29 @@
+.payment-method,
+.adress {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 13px;
+  padding: 0.8rem;
+}
+.payment-method p,
+.adress p {
+  padding-top: 13px;
+}
+
+.cardHori {
+  display: flex;
+  gap: 25px;
+}
+
+h4 {
+  margin-bottom: 0em !important;
+}
+
+#settings {
+  color: #4d603e;
+}
+#settings .columns {
+  margin-left: unset;
+  margin-right: unset;
+}/*# sourceMappingURL=settings.css.map */

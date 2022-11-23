@@ -1,0 +1,26 @@
+@media only screen and (min-width: 600px) {
+  .subList {
+    .tile {
+      min-width: 400px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #navigation {
+    width: 350px;
+    position: absolute;
+    right: 0;
+    box-shadow: -9px 3px 11px #938e8e;
+    .menu {
+    }
+  }
+  #settings {
+    max-width: 1024px;
+    margin: auto;
+  }
+  .subList {
+    max-width: 1024px;
+    margin: auto;
+  }
+}

@@ -1,0 +1,58 @@
+header {
+  background-color: #63c152;
+  padding: 1rem !important;
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header iconify-icon {
+  font-size: 45px;
+}
+header p {
+  margin: unset;
+}
+
+article {
+  height: 150px;
+  border-radius: 25px !important;
+  padding: 10px !important;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 1rem;
+}
+
+nav {
+  padding: 0;
+}
+nav ul {
+  padding-top: 0;
+  transform: none !important;
+}
+nav ul li {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.opacity {
+  opacity: 0.6;
+}
+
+.menu-item:hover {
+  text-decoration: none;
+}
+.menu-item:hover a {
+  text-decoration: none;
+}/*# sourceMappingURL=stores.css.map */
