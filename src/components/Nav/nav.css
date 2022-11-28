@@ -1,3 +1,17 @@
+nav {
+  padding: 0;
+}
+nav ul {
+  padding-top: 0;
+  transform: none !important;
+}
+nav ul li {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 nav ul li a:hover {
   background-color: unset !important;
   text-decoration: none !important;
@@ -9,4 +23,9 @@ nav ul li:hover {
   color: black;
   text-decoration: none !important;
   background-color: #ecfde8;
+}
+
+#navigation {
+  position: relative;
+  z-index: 25;
 }/*# sourceMappingURL=nav.css.map */

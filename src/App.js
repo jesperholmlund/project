@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import Stores from "./components/Stores/stores";
 import "spectre.css";
 import { Routes, Route } from "react-router-dom";
+import Delivery from "./components/Delivery/delivery";
 import Index from "./components/Index/index";
 import Nav from "./components/Nav/nav";
 import Settings from "./components/Settings/settings";
@@ -40,6 +41,7 @@ function App() {
           path="/subscriptions"
           element={<SubscriptionList></SubscriptionList>}
         ></Route>
+        <Route path="/delivery" element={<Delivery></Delivery>}></Route>
       </Routes>
     </div>
   );

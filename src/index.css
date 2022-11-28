@@ -13,13 +13,6 @@ code {
     monospace;
 }
 
-.icons {
-  font-size: 65px;
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-}
-
 .container {
   padding: 1rem !important;
 }
@@ -34,8 +27,4 @@ code {
 
 .tile-background {
   background-color: red;
-}
-#navigation {
-  position: relative;
-  z-index: 25;
 }

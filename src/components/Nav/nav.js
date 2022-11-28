@@ -91,10 +91,19 @@ const Nav = () => {
               <a>Inställningar</a>
             </li>
           </NavLink>
-          <li class="menu-item">
-            <TbTruckDelivery></TbTruckDelivery>
-            <a>Upphämtning</a>
-          </li>
+          <NavLink
+            to={"/delivery"}
+            className={({ isActive }) =>
+              "card text-light " +
+              (isActive ? " bg-success text-light" : " bg-dark")
+            }
+            style={{ width: "100%", border: "none" }}
+          >
+            <li class="menu-item" onClick={toggleMenu}>
+              <TbTruckDelivery></TbTruckDelivery>
+              <a>Upphämtning</a>
+            </li>
+          </NavLink>
         </ul>
       </nav>
     </>

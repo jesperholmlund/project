@@ -26,21 +26,6 @@ article {
   padding: 1rem;
 }
 
-nav {
-  padding: 0;
-}
-nav ul {
-  padding-top: 0;
-  transform: none !important;
-}
-nav ul li {
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
 .modal-footer {
   display: flex;
   justify-content: space-evenly;

@@ -1,0 +1,22 @@
+.delivery {
+  padding: 15px;
+}
+.delivery .card-header p {
+  margin: unset;
+}
+.delivery ul {
+  margin: unset !important;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.delivery ul li {
+  list-style-type: none;
+}
+.delivery ul li p {
+  padding-bottom: unset !important;
+}
+
+.badge[data-badge]::after {
+  background-color: red;
+}/*# sourceMappingURL=delivery.css.map */
